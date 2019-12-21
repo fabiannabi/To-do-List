@@ -32,11 +32,13 @@ AddTask.addEventListener("submit", function(event) {
   //thing to add to the node
   let tasknode = document.createElement("span");
   let buttonnode = document.createElement("button");
+  buttonnode.id = Date.now();
   buttonnode.className = "completeTask";
   node.className = "taskItem";
   //whatas inside each node
 
   tasknode.innerText = GetTask.value;
+  tasknode.id = Date.now();
   buttonnode.innerText = "Complete";
   //merge all
 

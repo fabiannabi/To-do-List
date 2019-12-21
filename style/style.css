@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #42b883;
+}
+
+.header {
+  color: #35495e;
+  text-align-last: center;
+  font-size: 2.5em;
+  margin: 1em;
+  border: dotted 2px #347474;
+}
+
+.ToDoForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  height: 2em;
+  font-size: 1.3em;
+}
+
+.add,
+.reset {
+  width: 10%;
+  height: 2em;
+  font-size: 1.3em;
+  margin: 10px;
+  border-radius: 10px;
+  color: #35495e;
+  background-color: #46b6b6;
+  min-width: 120px;
+}
+
+.add:hover,
+.reset:hover {
+  width: 10%;
+  height: 2em;
+  font-size: 1.3em;
+  margin: 10px;
+  border-radius: 10px;
+  color: #35495e;
+  background-color: #3e9999;
+  min-width: 120px;
+}
+
+.add:active,
+.reset:active {
+  width: 10%;
+  height: 2em;
+  font-size: 1.3em;
+  margin: 10px;
+  border-radius: 10px;
+  color: #35495e;
+  background-color: #286868;
+  min-width: 120px;
+}
+
+.Error,
+.Cleared {
+  text-align: center;
+  font-size: 2em;
+  color: #35495e;
+}
+
+.taskList li {
+  background-color: #5fc098;
+  margin: 0.2em 5em;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  font-size: 2em;
+}
+
+.completeTask {
+  width: 10%;
+  height: 2em;
+  font-size: 0.7em;
+  margin: 10px;
+  border-radius: 10px;
+  color: #35495e;
+  background-color: #46b6b6;
+  min-width: 120px;
+}
+
+.completeTask:hover {
+  width: 10%;
+  height: 2em;
+  font-size: 0.7em;
+  margin: 10px;
+  border-radius: 10px;
+  color: #35495e;
+  background-color: #3e9999;
+  min-width: 120px;
+}
+.completeTask:active {
+  width: 10%;
+  height: 2em;
+  font-size: 0.7em;
+  margin: 10px;
+  border-radius: 10px;
+  color: #35495e;
+  background-color: #286868;
+  min-width: 120px;
+}
